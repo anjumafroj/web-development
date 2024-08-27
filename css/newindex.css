@@ -15,4 +15,30 @@ h3,h1{
     background-color: green;
     color: aliceblue;
 }
-
+.post a{
+    color:purple;
+    background-color: yellow;
+}
+nav ul li a{
+    color: hotpink;
+}
+p + h3{
+    text-decoration: underline;
+}
+.upvote + button{
+    color: beige;
+    background-color: maroon;
+}
+div > input{
+    background-color: darksalmon;
+    color: navy;
+}
+input[type="text"]{
+    color: red;
+}
+input[type="password"]{
+    color: green;
+}
+#myid p{
+    color: palegreen;
+}
