@@ -1,0 +1,33 @@
+#box1{
+    height: 200px;
+    width: 200px;
+    transition: 2s ease-in 0.5 ;
+    background-color: goldenrod;
+}
+#box1:hover{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+#box2{
+    width: 200px;
+    height: 200px;
+    background-color: maroon;
+    transform: translate(400px,400px) rotate(90deg);
+}
+#box3{
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    transform: skewX(20deg);
+    position:absolute;
+    left: 50px;
+}
+#box4{
+    height: 200px;
+    width: 200px;
+    background-color:rgb(218, 193, 3) ;
+    box-shadow: 2px 2px 5px green ;
+    position: absolute;
+    left: 600px;
+}
