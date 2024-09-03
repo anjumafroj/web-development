@@ -1,0 +1,35 @@
+#main{
+    height: 400px;
+    width: 400px;
+    border: 5px solid cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    align-items: center;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    border: 3px solid black;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+#nav{
+    background-color: plum;
+    border: 3px solid cornflowerblue;
+    border-radius: 40px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+.list{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    
+}
+
